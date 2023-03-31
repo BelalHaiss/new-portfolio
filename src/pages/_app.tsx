@@ -10,7 +10,8 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title> Belal Portfolio </title>
+        <title>Belal`s Portfolio</title>
+        <link rel='icon' type='image/png' sizes='32x32' href='/person100.svg' />
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'
