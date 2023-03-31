@@ -30,3 +30,9 @@ nav {
   z-index: 100;
   padding: 10px 20px;
 }
+
+@media screen and (max-width: 400px) {
+  .project-box {
+    width: 300px !important;
+  }
+}

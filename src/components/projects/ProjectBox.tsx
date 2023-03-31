@@ -13,8 +13,9 @@ export function ProjectBox({ project }: Props) {
     <Flex
       direction={'column'}
       gap='15px'
+      className='project-box'
       p='20px'
-      w={{ base: '300px', xs: Project_BOX_WIDTH + 'px' }}
+      w={Project_BOX_WIDTH + 'px'}
     >
       <ProjectView project={project} />
 

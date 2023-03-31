@@ -10,11 +10,15 @@ type Props = {
 export function ProjectView({ project }: Props) {
   const { srcType, iframeSrc, imgSrc, title } = project;
   return (
-    <Flex w='100%' bg='#DFECF2' style={{ borderRadius: '10px' }}>
+    <Flex
+      w='100%'
+      bg='#DFECF2'
+      style={{ borderRadius: '10px', overflow: 'auto' }}
+    >
       {srcType === 'iframeSrc' ? (
         <iframe
-          style={{ overflowX: 'auto' }}
           loading='lazy'
+          className='project-box'
           src={iframeSrc}
           height={Project_BOX_WIDTH}
           width={Project_BOX_WIDTH}
@@ -23,6 +27,7 @@ export function ProjectView({ project }: Props) {
         <Image
           style={{ objectFit: 'contain', overflow: 'hidden' }}
           src={imgSrc!}
+          className='project-box'
           alt={title}
           width={Project_BOX_WIDTH}
           height={Project_BOX_WIDTH}
