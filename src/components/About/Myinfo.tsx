@@ -19,7 +19,7 @@ export function MyInfo() {
       </Title>
 
       <Text color='white' fz='lg'>
-        i've more than 1 year of experince with creating
+        i've about 2 years of experince with creating
         <Text ml='xs' weight={'bold'} display='inline' color='#e0234e'>
           Web Apps - Desktop Apps - Mobie Apps
         </Text>
