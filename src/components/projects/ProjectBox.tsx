@@ -18,7 +18,6 @@ export function ProjectBox({ project }: Props) {
       w={Project_BOX_WIDTH + 'px'}
     >
       <ProjectView project={project} />
-
       {/* middle  */}
       <Flex wrap='wrap' align='center' px='sm'>
         <Title color='#e0234e' fz={'20px'} order={3}>
@@ -42,11 +41,8 @@ export function ProjectBox({ project }: Props) {
       </Flex>
 
       {/* skills part */}
-
       <ProjectSkills skills={project.skills} />
-
       {/* preview btn */}
-
       <Button
         disabled={!project.link}
         onClick={() => window.open(project.link, '_blank')}

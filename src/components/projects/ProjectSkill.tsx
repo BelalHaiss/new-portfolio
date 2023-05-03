@@ -1,13 +1,20 @@
 import { Badge, Button, Flex, HoverCard, Text } from '@mantine/core';
 import { Project_BOX_WIDTH } from './utils';
+import { useWindowSize } from '@/hooks/useWindowSize';
+import { useMemo } from 'react';
 
 type Props = {
   skills: string[];
 };
 
-const skillWidth = '120';
-const ITEMS_CAN_SHOWS = Math.floor(+Project_BOX_WIDTH / +skillWidth - 1);
+const skillWidth = '100';
 export function ProjectSkills({ skills }: Props) {
+  const { width } = useWindowSize();
+
+  const ITEMS_CAN_SHOWS = useMemo(() => {
+    const boxWidth = width < 450 ? 300 : +Project_BOX_WIDTH;
+    return Math.floor(boxWidth / +skillWidth - 1);
+  }, [width]);
   const visibleItems = skills.filter(
     (_: string, i: number) => i + 1 <= ITEMS_CAN_SHOWS
   );

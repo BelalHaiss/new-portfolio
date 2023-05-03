@@ -38,7 +38,7 @@ export const WebProjects: Project[] = [
 
 export const DesktopProjects: Project[] = [
   {
-    title: 'Controller System ',
+    title: 'Controller System Management (PS) ',
     badges: [
       {
         label: 'Free Trial',
@@ -49,6 +49,20 @@ export const DesktopProjects: Project[] = [
     skills: ['NextJs', 'Electron', 'Typescript', 'MongoDb', 'NodeJs'],
     category: 'Desktop',
     imgSrc: '/projects/controller-desktop.png',
+    srcType: 'imgSrc'
+  },
+  {
+    title: 'Controller System Management (Restaurants) ',
+    badges: [
+      {
+        label: 'Free Trial',
+        color: 'green'
+      }
+    ],
+    link: 'https://drive.google.com/drive/folders/17JnEJxPPLvan3UkrHR7DC7fEBnKe0PVK?usp=sharing',
+    skills: ['NextJs', 'Electron', 'Typescript', 'MongoDb', 'NodeJs'],
+    category: 'Desktop',
+    imgSrc: '/projects/controller restaurant .png',
     srcType: 'imgSrc'
   }
 ];
@@ -62,11 +76,11 @@ export const MobileProjects: Project[] = [
         color: 'yellow'
       }
     ],
-    skills: ['ReactNative', 'Typescript', 'Figma'],
+    skills: ['RN', 'Typescript', 'Figma'],
     category: 'Desktop',
     srcType: 'imgSrc',
     imgSrc: '/projects/keto-mob.png'
   }
 ];
 
-export const Project_BOX_WIDTH = '400';
+export const Project_BOX_WIDTH = '400' || '300';

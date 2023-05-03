@@ -22,7 +22,7 @@ type Skills =
   | 'MongoDb'
   | 'MySql'
   | 'Firebase'
-  | 'ReactNative'
+  | 'RN'
   | 'Figma'
   | 'NextJs'
   | 'Electron'
