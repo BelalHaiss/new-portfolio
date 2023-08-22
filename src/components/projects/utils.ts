@@ -16,6 +16,7 @@ export const WebProjects: Project[] = [
     iframeSrc: 'https://www.my-controller.online',
     srcType: 'iframeSrc'
   },
+/* 
   {
     title: 'Keto Style',
     link: 'https://www.ketonestyle.com',
@@ -25,6 +26,7 @@ export const WebProjects: Project[] = [
     category: 'Web',
     srcType: 'iframeSrc'
   },
+*/
   {
     title: 'Drug Store',
     link: 'https://drug-store-ebon.vercel.app',
