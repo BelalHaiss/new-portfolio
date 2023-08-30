@@ -15,6 +15,7 @@ export function ProjectBox({ project }: Props) {
       gap='15px'
       className='project-box'
       p='20px'
+      h='605px'
       w={Project_BOX_WIDTH + 'px'}
     >
       <ProjectView project={project} />
@@ -44,6 +45,7 @@ export function ProjectBox({ project }: Props) {
       <ProjectSkills skills={project.skills} />
       {/* preview btn */}
       <Button
+        mt='auto'
         disabled={!project.link}
         onClick={() => window.open(project.link, '_blank')}
         leftIcon={<HiExternalLink />}
