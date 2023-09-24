@@ -13,6 +13,7 @@ export function Projects() {
       </Flex>
       <Tabs
         color='pink'
+        radius={'xl'}
         w='100%'
         variant='pills'
         orientation='horizontal'

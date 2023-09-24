@@ -13,12 +13,13 @@ export function ProjectView({ project }: Props) {
     <Flex
       w='100%'
       bg='#DFECF2'
-      style={{ borderRadius: '10px', overflow: 'auto' }}
+      style={{ borderRadius: '15px', overflow: 'hidden' }}
     >
       {srcType === 'iframeSrc' ? (
         <iframe
           loading='lazy'
           className='project-box'
+          style={{ border: 0 }}
           src={iframeSrc}
           height={Project_BOX_WIDTH}
           width={Project_BOX_WIDTH}

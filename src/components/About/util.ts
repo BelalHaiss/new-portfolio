@@ -61,6 +61,19 @@ export const skills: SkillIcon[] = [
   {
     src: '/skills/nest.svg',
     label: 'nest-js'
+  },
+  {
+    src: '/skills/redis.svg',
+    label: 'redis'
+  },
+  {
+    src: '/skills/vue.svg',
+    label: 'vue-js'
+  },
+  { src: '/skills/java.svg', label: 'java' },
+  {
+    src: '/skills/spring.svg',
+    label: 'spring'
   }
   // {
   //   src: '/skills/flutter.svg',
