@@ -13,6 +13,7 @@ export function ProjectView({ project }: Props) {
     <Flex
       w='100%'
       bg='#DFECF2'
+      className='image-container'
       style={{ borderRadius: '15px', overflow: 'hidden' }}
     >
       {srcType === 'iframeSrc' ? (
@@ -26,7 +27,11 @@ export function ProjectView({ project }: Props) {
         ></iframe>
       ) : (
         <Image
-          style={{ objectFit: 'contain', overflow: 'hidden' }}
+          style={{
+            objectFit: 'contain',
+            overflow: 'hidden',
+            boxShadow: '10px'
+          }}
           src={imgSrc!}
           className='project-box'
           alt={title}

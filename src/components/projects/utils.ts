@@ -16,7 +16,7 @@ export const WebProjects: Project[] = [
     iframeSrc: 'https://www.my-controller.online',
     srcType: 'iframeSrc'
   },
-/* 
+  /* 
   {
     title: 'Keto Style',
     link: 'https://www.ketonestyle.com',
@@ -27,6 +27,15 @@ export const WebProjects: Project[] = [
     srcType: 'iframeSrc'
   },
 */
+  {
+    title: 'Geolocator',
+    link: 'https://geolocator-tracker.vercel.app/',
+    iframeSrc: 'https://geolocator-tracker.vercel.app/',
+
+    skills: ['VueJs', 'Typescript'],
+    category: 'Web',
+    srcType: 'iframeSrc'
+  },
   {
     title: 'Drug Store',
     link: 'https://drug-store-ebon.vercel.app',

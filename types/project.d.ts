@@ -27,4 +27,5 @@ type Skills =
   | 'NextJs'
   | 'Electron'
   | 'ExpressJs'
-  | 'NodeJs';
+  | 'NodeJs'
+  | 'VueJs';

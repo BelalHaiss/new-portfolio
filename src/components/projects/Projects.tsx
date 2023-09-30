@@ -26,9 +26,9 @@ export function Projects() {
           <Tabs.Tab fz='20px' value='Desktop'>
             Desktop Apps
           </Tabs.Tab>
-          <Tabs.Tab fz='20px' value='Mobile'>
+          {/* <Tabs.Tab fz='20px' value='Mobile'>
             Mobile Apps
-          </Tabs.Tab>
+          </Tabs.Tab> */}
         </Tabs.List>
         <hr style={{ border: '1px dashed #1c2321', width: '100%' }} />
 
@@ -39,10 +39,10 @@ export function Projects() {
         <Tabs.Panel value='Desktop' pl='xs'>
           <ProjectsWrapepr projects={DesktopProjects} />
         </Tabs.Panel>
-
+        {/* 
         <Tabs.Panel value='Mobile' pl='xs'>
           <ProjectsWrapepr projects={MobileProjects} />
-        </Tabs.Panel>
+        </Tabs.Panel> */}
       </Tabs>
     </Flex>
   );

@@ -31,6 +31,9 @@ nav {
   padding: 10px 20px;
 }
 
+.image-container {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
 @media screen and (max-width: 400px) {
   .project-box {
     width: 300px !important;
